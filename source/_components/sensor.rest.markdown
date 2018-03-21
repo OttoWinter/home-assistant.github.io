@@ -87,11 +87,11 @@ headers:
   type: list, string
 json_attributes:
   description: A list of keys to extract values from a JSON dictionary result and then set as sensor attributes.
-  reqired: false
+  required: false
   type: list, string
 force_update:
   description: Sends update events even if the value hasn't changed. Useful if you want to have meaningful value graphs in history.
-  reqired: false
+  required: false
   type: boolean
   default: False
 {% endconfiguration %}

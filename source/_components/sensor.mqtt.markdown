@@ -55,7 +55,7 @@ value_template:
   type: template
 force_update:
   description: Sends update events even if the value hasn't changed. Useful if you want to have meaningful value graphs in history.
-  reqired: false
+  required: false
   type: boolean
   default: False
 availability_topic:
@@ -74,7 +74,7 @@ payload_not_available:
   default: offline
 json_attributes:
   description: A list of keys to extract values from a JSON dictionary payload and then set as sensor attributes.
-  reqired: false
+  required: false
   type: list, string
 {% endconfiguration %}
 
